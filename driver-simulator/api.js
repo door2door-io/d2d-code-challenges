@@ -3,13 +3,15 @@ const http = require("http");
 const API_HOST = process.argv[2].split(":")[0];
 const API_PORT = process.argv[2].split(":")[1];
 
-function updateVehicleLocation(vehicleId, location) {
+function updateVehicleLocation(vehicleId, lat, lng) {
   request(
     `/vehicles/${vehicleId}/locations`,
     "POST",
-    { lat: location[1], lat: location[0], at: new Date().toISOString() },
+    { lat, lng, at: new Date().toISOString() },
     res => {
-      console.log(`Vehicle ${vehicleId.split("-")[0]} moved to: ${location}`);
+      console.log(
+        `Vehicle ${vehicleId.split("-")[0]} moved to: ${lat}, ${lng}`
+      );
     }
   );
 }

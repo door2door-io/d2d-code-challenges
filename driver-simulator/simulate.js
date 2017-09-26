@@ -11,7 +11,8 @@ vehicles.forEach(vehicle => {
     stepIndexes[vehicle.id] = stepIndex;
 
     if (stepIndex < vehicle.steps.length) {
-      api.updateVehicleLocation(vehicle.id, vehicle.steps[stepIndex]);
+      const location = vehicle.steps[stepIndex];
+      api.updateVehicleLocation(vehicle.id, location[0], location[1]);
     } else if (stepIndex === vehicle.steps.length) {
       api.deregisterVehicle(vehicle.id);
     }
