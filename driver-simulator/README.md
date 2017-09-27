@@ -22,4 +22,11 @@ $ yarn start localhost:3000
 # Replace localhost:3000 with the host of your API
 # yarn start <API URL>:<API Port>
 ```
+
+## Tests
+
+This project contains automated tests that can be executed by running the following command:
+
+```shell
+$ yarn test
 ```

@@ -34,7 +34,10 @@ function request(path, method, body, cb) {
     cb
   );
 
-  req.write(JSON.stringify(body));
+  if (body) {
+    req.write(JSON.stringify(body));
+  }
+
   req.end();
 }
 
