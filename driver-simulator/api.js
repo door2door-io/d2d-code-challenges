@@ -38,6 +38,16 @@ function request(path, method, body, cb) {
     req.write(JSON.stringify(body));
   }
 
+  req.on("error", error => {
+    if (error.code === "ECONNREFUSED") {
+      console.log(
+        `The simulator couldn't reach the API at ${API_HOST}:${API_PORT}`
+      );
+    } else {
+      console.log(error);
+    }
+  });
+
   req.end();
 }
 
