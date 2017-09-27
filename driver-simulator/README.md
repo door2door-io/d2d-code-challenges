@@ -9,10 +9,17 @@ The driver simulator will:
 
 ## Get started
 
-Install [node](https://github.com/creationix/nvm#install-script) and then run the following command:
+You need to install [node](https://github.com/creationix/nvm#install-script) and [yarn](https://yarnpkg.com/en/docs/install) to run the simulator.
+
+Make sure your node version is the same as the one listed in the `.nvmrc` file, if you are using nvm to manage your node instances you can run `$ nvm use` in your command line, it will compare your current node version with the one set in the file `.nvmrc`.
+
+Once you have yarn and the correct version of node installed, you can run `$ yarn install`, this is going to install all the dependencies of the project.
+
+Finally, you can start the simulator running:
 
 ```shell
-$ node simulate localhost:3000
+$ yarn start localhost:3000
 # Replace localhost:3000 with the host of your API
-# node simulate <API URL>:<API Port>
+# yarn start <API URL>:<API Port>
+```
 ```
