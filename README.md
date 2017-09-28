@@ -90,6 +90,18 @@ Please deliver your solution to us as a publicly accessible git repository, or i
 
 If you are able to publicly host the solution somewhere (e.g. Heroku, AWS), this would be a great bonus.
 
+## Reviewing
+
+The following description will give you an understanding of how we review the code challenge. What matters to us is to learn how you write code and what you consider as clean code. For us it is more important to have an understandable project than a complex algorithm.
+
+The criteria that we are looking for are the following:
+
+- Documentation: Is the project and the code properly documented?
+- Correctness: Is the task solved? If there is anything missing, is the reason why it is missing documented?
+- Technology: Which libraries or approaches are used? Do they make sense for the task?
+- Code quality: Is the code understandable and maintainable? Does the project make use of Object Oriented Programming? Does the code follow the PEP8 pattern? Is the projected linted?
+- Tests: How is the project tested? Does the project contain system and unit tests? Is the entire project tested or just parts of it?
+
 ## Using the simulation tool
 
 Check the `driver-simulator/README.md` file in order to learn how to use the simulation tool.
