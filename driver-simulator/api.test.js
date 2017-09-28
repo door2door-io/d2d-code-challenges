@@ -11,7 +11,7 @@ let request;
 const vehicleId = "123";
 
 beforeEach(() => {
-  req = { write: jest.fn(), end: jest.fn() };
+  req = { write: jest.fn(), end: jest.fn(), on: jest.fn() };
   request = jest.fn(() => req);
   http.request = request;
 });
