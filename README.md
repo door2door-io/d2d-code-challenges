@@ -99,7 +99,7 @@ The criteria that we are looking for are the following:
 - Documentation: Is the project and the code properly documented?
 - Correctness: Is the task solved? If there is anything missing, is the reason why it is missing documented?
 - Technology: Which libraries or approaches are used? Do they make sense for the task? Justify why you've decided to use those technologies to solve the code challenge.
-- Code quality: Is the code understandable and maintainable? Does the project make use of Object Oriented Programming? Is the project linted?
+- Code quality: Is the code understandable and maintainable? What programming paradigm is being used? Is it implemented correctly? Is the project linted?
 - Tests: How is the project tested? Does the project contain system and unit tests? Is the entire project tested or just parts of it?
 
 ## Using the simulation tool
