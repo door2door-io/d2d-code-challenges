@@ -17,6 +17,8 @@ beforeEach(() => {
 });
 
 describe("registerVehicle", () => {
+  const data = JSON.stringify({ id: vehicleId });
+
   beforeEach(() => api.registerVehicle(vehicleId));
 
   it("should make a POST request to /vehicles", () => {
@@ -25,7 +27,11 @@ describe("registerVehicle", () => {
         hostname: "localhost",
         port: "4567",
         path: `/vehicles`,
-        method: "POST"
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Content-Length": Buffer.byteLength(data)
+        }
       },
       expect.any(Function)
     );
@@ -34,7 +40,7 @@ describe("registerVehicle", () => {
   });
 
   it("should write the vehicle id in the request body", () => {
-    expect(req.write).toBeCalledWith(JSON.stringify({ id: vehicleId }));
+    expect(req.write).toBeCalledWith(data);
   });
 });
 
@@ -43,6 +49,7 @@ describe("updateVehicleLocation", () => {
   const lat = 52.5128;
   const lng = 13.3209;
   const RealDate = Date;
+  const data = JSON.stringify({ lat, lng, at });
 
   function mockDate(isoDate) {
     global.Date = class extends RealDate {
@@ -65,7 +72,11 @@ describe("updateVehicleLocation", () => {
         hostname: "localhost",
         port: "4567",
         path: `/vehicles/${vehicleId}/locations`,
-        method: "POST"
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Content-Length": Buffer.byteLength(data)
+        }
       },
       expect.any(Function)
     );
@@ -74,11 +85,13 @@ describe("updateVehicleLocation", () => {
   });
 
   it("should write the vehicle location in the request body", () => {
-    expect(req.write).toBeCalledWith(JSON.stringify({ lat, lng, at }));
+    expect(req.write).toBeCalledWith(data);
   });
 });
 
 describe("deregisterVehicle", () => {
+  const data = JSON.stringify(null);
+
   beforeEach(() => api.deregisterVehicle(vehicleId));
 
   it("should make a DELETE request to /vehicles/vehicleId", () => {
@@ -87,7 +100,11 @@ describe("deregisterVehicle", () => {
         hostname: "localhost",
         port: "4567",
         path: `/vehicles/${vehicleId}`,
-        method: "DELETE"
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          "Content-Length": Buffer.byteLength(data)
+        }
       },
       expect.any(Function)
     );
