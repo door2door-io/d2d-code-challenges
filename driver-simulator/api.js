@@ -29,13 +29,23 @@ function deregisterVehicle(vehicleId) {
 }
 
 function request(path, method, body, cb) {
+  const data = JSON.stringify(body)
+
   const req = http.request(
-    { hostname: API_HOST, port: API_PORT, path: path, method: method },
+    { hostname: API_HOST,
+      port: API_PORT,
+      path: path,
+      method: method,
+      headers: {
+        "Content-Type": "application/json",
+        "Content-Length": Buffer.byteLength(data)
+      }
+    },
     cb
   );
 
   if (body) {
-    req.write(JSON.stringify(body));
+    req.write(data);
   }
 
   req.on("error", error => {
