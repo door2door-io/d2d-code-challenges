@@ -82,7 +82,7 @@ All valid position data received must be stored somewhere for future analysis an
 
 * A containerized solution is not a requirement, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile to your solution is optional, but recommended.
 
-* We expect your solution to be able to handle the load from the provided simulation tool with ease. As an optional extra, you can demonstrate to us how your solution would scale to handle 1000+ vehicles. This could be through a screen capture, or some form of clearly readable performance benchmarking, or in another way if you choose.
+* As an optional extra, you can demonstrate to us how your solution would scale to handle 1000+ vehicles. This could be through a screen capture, or some form of clearly readable performance benchmarking, or in another way if you choose.
 
 ## Delivery of your solution
 
@@ -97,7 +97,7 @@ The following description will give you an understanding of how we review the co
 The criteria that we are looking for are the following:
 
 - Documentation: Is the project and the code properly documented?
-- Correctness: Is the task solved? If there is anything missing, is the reason why it is missing documented?
+- Correctness: Is the task solved? Does the driver simulator work with the provided solution? If there is anything missing, is the reason why it is missing documented?
 - Technology: Which libraries or approaches are used? Do they make sense for the task? Justify why you've decided to use those technologies to solve the code challenge.
 - Code quality: Is the code understandable and maintainable? What programming paradigm is being used? Is it implemented correctly? Is the project linted?
 - Tests: How is the project tested? Does the project contain system and unit tests? Is the entire project tested or just parts of it?
