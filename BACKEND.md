@@ -36,7 +36,7 @@ The vehicle will contact this endpoint to register itself in your solution. It w
 Request body:
 
 ```json
-{ "lat": 10.0, "lng": 20.0, "at": "2017-09-01T12:00:00Z" }
+{ "lat": 10.0, "lng": 20.0, "at": "2019-09-01T12:00:00Z" }
 ```
 
 Response status code: 204
@@ -45,7 +45,7 @@ Response body should be empty.
 
 The vehicle will contact this endpoint whenever a new location is detected, but no more than once every 3 seconds. It will contain the latitude and longitude of its position, and the timestamp that the position was recorded in ISO8601 format. The vehicle will never contact this endpoint without having registered first.
 
-**Example:** the vehicle with the ID `abc123` has recorded a new position at 12pm CET on 2nd December 2017, at the position (51.2, 45.3). It would contact `POST /vehicles/abc123/locations` with ``{ "lat": 51.2, “lng”: 45.3, “at”: “2017-12-02T12:00:00+01:00” }`` in the request body.
+**Example:** the vehicle with the ID `abc123` has recorded a new position at 12pm CET on 2nd December 2019, at the position (51.2, 45.3). It would contact `POST /vehicles/abc123/locations` with ``{ "lat": 51.2, “lng”: 45.3, “at”: “2019-12-02T12:00:00+01:00” }`` in the request body.
 
 ### Vehicle de-registration
 
