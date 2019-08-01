@@ -4,3 +4,4 @@ Welcome to the door2door Code Challenge repository. Please follow the relevant l
 
 - [Full-stack code challenge](./FULLSTACK.md)
 - [Back-end code challenge](./BACKEND.md)
+- [Data code challenge](./DATA.md)

@@ -1,0 +1,2 @@
+{"event":"update","on":"vehicle","at":"2019-06-01T18:28:46.097Z","data":{"id":"cf25c1c6-1889-4dd1-95df-18141c4c746c","location":{"lat":52.4539,"lng":13.27052,"at":"2019-06-01T18:28:46.097Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:28:46.097Z","data":{"id":"d57e9c3e-3479-47cd-9b20-9e317616a3f0","location":{"lat":52.43932,"lng":13.41305,"at":"2019-06-01T18:28:46.097Z"}},"organization_id":"org-id"}
