@@ -2,7 +2,7 @@
 
 door2door, the operator of the 'allygator shuttle' service in Berlin, collects the live position of all vehicles in its fleet in real-time via a GPS sensor in each vehicle. To manage the service, door2door needs you to provide a solution which can:
 
-1. collect the location and bearing of all vehicles in real-time
+1. collect the location and compute the [navigation bearing](https://en.wikipedia.org/wiki/Bearing_(navigation)) (direction of vehicle expressed in angles) of all vehicles in real-time
 2. broadcast the location & bearing updates of all vehicles to connected clients, like web or mobile applications.
 
 To aid you in development of this solution, door2door has provided a tool which will simulate the registration and GPS emissions from their vehicles.
