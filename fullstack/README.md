@@ -104,4 +104,4 @@ The criteria that we are looking for are the following:
 
 ## Using the simulation tool
 
-Check the `driver-simulator/README.md` file in order to learn how to use the simulation tool.
+Check the `resources/driver-simulator/README.md` file in order to learn how to use the simulation tool.
