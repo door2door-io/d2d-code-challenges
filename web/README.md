@@ -17,7 +17,7 @@ We would like you to build a landing page that:
 
 1. Implements the provided desktop and mobile designs as a single page website.
 
-2. Implements a map component (you can choose your favourite map provider - Google, Mapbox, etc), which draws the area of [the example region](./web/region.json) returned in a response from our API.
+2. Implements a map component (you can choose your favourite map provider - Google, Mapbox, etc), which draws the area of [the example region](./region.json) returned in a response from our API.
 
 ## Code submission
 
