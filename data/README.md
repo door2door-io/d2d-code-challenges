@@ -2,7 +2,7 @@
 
 door2door, the provider of the 'allygator shuttle' service in Berlin, collects the live position of all vehicles in its fleet in real-time via a GPS sensor in each vehicle. These vehicles run in operating periods that are managed by door2door's operators. An API is responsible for collecting information from the vehicles and the operators. A step of the API's processing of this information, is to emit events to a data stream from which another component process and stores them in a data lake.
 
-For this challenge, we collected a sample of the data lake structure and put it on the `/data` folder.
+For this challenge, we collected a sample of the data lake structure and put it on the `/resources` folder.
 
 
 See the [Data Model](#data-model) section for more information.
@@ -14,7 +14,7 @@ Our BI team was asked the following question from our stakeholders:
 
 * What is the average distance traveled by our vehicles during an operating period?
 
-We would like to ask you to develop a solution that processes information from the files found in `/data`. You must extract the main events that occurred during operating periods, transform and store them in a way that is easy for our analysts to answer the question above.
+We would like to ask you to develop a solution that processes information from the files found in `/resources`. You must extract the main events that occurred during operating periods, transform and store them in a way that is easy for our analysts to answer the question above.
 
 You are free to use any combination of tools, but you must provide instructions for us to execute them. If your solution is setup to run locally, it must be containerized.
 
