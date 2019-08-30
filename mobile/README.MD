@@ -9,6 +9,7 @@
 door2door has provided a WebSockets endpoint that will provide all of this information. It will send different events simulating the various states of a ridepooling ride. Your solution should visualise the information that is sent from this endpoint.
 
 - [Documentation of the WebSockets endpoint](https://d2d-frontend-code-challenge.herokuapp.com/docs)
+  - Note that this service goes to sleep when not in use, so it may take a few seconds to connect the first time you access it
 
 ## _Optional_ extras
 
