@@ -1,0 +1,3 @@
+{"event":"update","on":"vehicle","at":"2019-06-01T18:28:24.967Z","data":{"id":"d57e9c3e-3479-47cd-9b20-9e317616a3f0","location":{"lat":52.44113,"lng":13.42174,"at":"2019-06-01T18:28:24.967Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:28:24.977Z","data":{"id":"cf25c1c6-1889-4dd1-95df-18141c4c746c","location":{"lat":52.46038,"lng":13.27523,"at":"2019-06-01T18:28:24.977Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:28:24.977Z","data":{"id":"d38656b3-1e9b-447f-a029-148603b6fc41","location":{"lat":52.53213,"lng":13.23635,"at":"2019-06-01T18:28:24.977Z"}},"organization_id":"org-id"}

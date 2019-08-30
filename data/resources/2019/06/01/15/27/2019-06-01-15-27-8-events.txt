@@ -1,0 +1,6 @@
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.497Z","data":{"id":"5ab1577c-6beb-407b-90c9-2f83020633f9","location":{"lat":52.44994,"lng":13.46511,"at":"2019-06-01T18:27:08.497Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.497Z","data":{"id":"7a707071-f9b6-47ae-af94-5c976f72ae1b","location":{"lat":52.43823,"lng":13.38286,"at":"2019-06-01T18:27:08.497Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.497Z","data":{"id":"d38656b3-1e9b-447f-a029-148603b6fc41","location":{"lat":52.52014,"lng":13.26807,"at":"2019-06-01T18:27:08.497Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.497Z","data":{"id":"cf25c1c6-1889-4dd1-95df-18141c4c746c","location":{"lat":52.45988,"lng":13.30878,"at":"2019-06-01T18:27:08.497Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.497Z","data":{"id":"d57e9c3e-3479-47cd-9b20-9e317616a3f0","location":{"lat":52.45784,"lng":13.43638,"at":"2019-06-01T18:27:08.497Z"}},"organization_id":"org-id"}
+{"event":"update","on":"vehicle","at":"2019-06-01T18:27:08.496Z","data":{"id":"5fc6d315-d31c-428d-8ce4-4e1442d8b799","location":{"lat":52.53748,"lng":13.47785,"at":"2019-06-01T18:27:08.496Z"}},"organization_id":"org-id"}

@@ -1,0 +1,1 @@
+{"event":"update","on":"vehicle","at":"2019-06-01T18:29:03.188Z","data":{"id":"d57e9c3e-3479-47cd-9b20-9e317616a3f0","location":{"lat":52.43604,"lng":13.41287,"at":"2019-06-01T18:29:03.188Z"}},"organization_id":"org-id"}
