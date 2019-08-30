@@ -1,27 +1,27 @@
 # Mobile code challenge
 
-'allygator shuttle', door2door's mobility service that operates in Berlin, provides a mobile app to help passengers search the most suitable mode of transport to move around the city, and to book ridepooling rides in an easy manner. After booking a ride, and in order to help the users during their riding experience, door2door needs you to provide a solution which:
+'allygator shuttle', door2door's mobility service that operates in Berlin, provides a mobile app that allows users to book pooled rides and track their progress. In order to enable users to be able to track the progress of their ride after they book it, door2door needs you to provide a solution which:
 
-1. shows the moving location of the vehicle on a map
-2. shows the ride's current state information in a UI component; this includes the pickup and dropoff addresses and the status of the ride.
+1. shows the user the live location of their assigned vehicle on a map
+2. shows the ride's current status (waiting, in the vehicle, dropped off) in a UI component
+3. shows the ride's pickup and dropoff addresses in a UI component
 
-To aid you in development of this solution, door2door has provided a WebSocket endpoint that will send different events simulating the possible states of a ridepooling ride.
-[Documentation of the WebSockets endpoint](https://d2d-frontend-code-challenge.herokuapp.com/docs)
+door2door has provided a WebSockets endpoint that will provide all of this information. It will send different events simulating the various states of a ridepooling ride. Your solution should visualise the information that is sent from this endpoint.
+
+- [Documentation of the WebSockets endpoint](https://d2d-frontend-code-challenge.herokuapp.com/docs)
 
 ## _Optional_ extras
 
-* As an optional extra, you could reflect on the map (or in a different place) how the intermediate stops between the user's pickup and dropoff locations change, in case they do.
+The following points are optional features that you may choose to implement, but they are not required in order to have your solution be accepted.
 
-* As an optional extra, you could calculate the [navigation bearing](https://en.wikipedia.org/wiki/Bearing_(navigation)) of the vehicle to show which direction the vehicle is going to.
-
-## Additional business requirements
-
-When the WebSocket endpoint sends the last event, the connection should be closed.
+- Visualise on the map the intermediate stops that the vehicle will make between the pickup and dropoff locations. Note that these stops may change over the duration of the journey.
+- Visualise the [navigation bearing](https://en.wikipedia.org/wiki/Bearing_(navigation)) of the vehicle to show which direction the vehicle is currently driving in.
 
 ## Technical assumptions
 
-* The solution is expected to be implemented using one of the following languages: Swift for iOS, and preferably Kotlin for Android (but Java is also accepted).
-* You are free to make use of any framework or library you please (if any), but you should justify your choice.
+- *If you are applying for an iOS Software Developer position*, then the solution must be implemented in **Swift**.
+- *If you are applying for an Android Software Developer position*, then the solution should preferably be implemented in **Kotlin**, but we would accept Java solutions too.
+- You are free to make use of any framework or library you please (if any), but you should justify your choice.
 
 ## Delivery of your solution
 
