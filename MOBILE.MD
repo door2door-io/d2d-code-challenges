@@ -20,7 +20,7 @@ When the WebSocket endpoint sends the last event, the connection should be close
 
 ## Technical assumptions
 
-* The solution is expected to be implemented using one of the following languages: Swift for iOS, and preferrably Kotlin for Android (but Java is also accepted).
+* The solution is expected to be implemented using one of the following languages: Swift for iOS, and preferably Kotlin for Android (but Java is also accepted).
 * You are free to make use of any framework or library you please (if any), but you should justify your choice.
 
 ## Delivery of your solution
@@ -34,7 +34,7 @@ The following description will give you an understanding of how we review the co
 The criteria that we are looking for are the following:
 
 - Documentation: Is the project and the code properly documented?
-- Correctness: Is the task solved? Does the app work with the provided WebSockets enpoint? If there is anything missing, is the reason why it is missing documented?
+- Correctness: Is the task solved? Does the app handle properly all the events sent from the WebSockets enpoint? If there is anything missing, is the reason why it is missing documented?
 - Technology: Which libraries or approaches are used? Do they make sense for the task? Justify why you've decided to use those technologies to solve the code challenge.
 - Code quality: Is the code understandable and maintainable? What programming paradigm is being used? Is it implemented correctly? Is the project linted?
 - Tests: How is the project tested? Does the project contain system and unit tests? Is the entire project tested or just parts of it?
