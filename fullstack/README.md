@@ -71,7 +71,7 @@ We expect your visualization to be accessible via a web browser. It only needs t
 
 If a vehicle has exited the "city boundaries", the system should disregard any GPS emissions from that vehicle. The city boundary is currently assumed to be a 3.5km radius around door2door's office which is located at latitude 52.53 and longitude 13.403.
 
-All valid position data received must be stored somewhere for future analysis and consumption by the door2door data science team.
+All valid position data, that are inside the "city boundaries", must be stored somewhere for future analysis and consumption by the door2door data science team.
 
 ## Technical assumptions
 
