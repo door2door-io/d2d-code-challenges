@@ -75,12 +75,16 @@ All valid position data, that are inside the "city boundaries", must be stored s
 
 ## Technical assumptions
 
-* The API is expected to be implemented using one of the following languages: Ruby, Python or Javascript.
+* The API is expected to be implemented using one of the following languages: Ruby (minimum version: 2.6.x), Python or Javascript.
 * You are free to make use of any frontend framework or library you please (if any), but you should justify your choice.
+
+## Containerized solution
+
+A containerized solution is a requirement for senior position applicants.
 
 ## Optional extras
 
-* A containerized solution is not a requirement, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile to your solution is optional, but recommended.
+* A containerized solution is not a requirement for non senior position applicants, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile is not mandatory, but recommended.
 
 * As an optional extra, you can demonstrate to us how your solution would scale to handle 1000+ vehicles. This could be through a screen capture, or some form of clearly readable performance benchmarking, or in another way if you choose.
 
