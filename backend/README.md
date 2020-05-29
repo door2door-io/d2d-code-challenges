@@ -73,12 +73,16 @@ All valid position data, that are inside the "city boundaries", must be stored s
 
 ## Technical assumptions
 
-* The API is expected to be implemented using one of the following languages: Ruby, Javascript, Kotlin.
+* The API is expected to be implemented using one of the following languages: Ruby (minimum version: 2.6.x), Javascript, Kotlin.
 * You are free to make use of any server framework or library you please (if any), but you should justify your choice.
 
-## _Optional_ extras
+## Containerized solution
 
-* A containerized solution is not a requirement, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile to your solution is optional, but recommended.
+A containerized solution is a requirement for senior position applicants.
+
+## Optional extras
+
+* A containerized solution is not a requirement for non senior position applicants, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile to your solution is optional, but recommended.
 
 * As an optional extra, if you have any web development expertise, you could demonstrate your knowledge by creating a live visualization of the vehicle positions that subscribes to the broadcast mechanism that you have built. Feel free to pick any application frameworks or mapping libraries that you are comfortable with.
 
