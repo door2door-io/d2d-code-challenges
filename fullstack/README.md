@@ -84,7 +84,7 @@ A containerized solution is a requirement for senior position applicants.
 
 ## Optional extras
 
-* A containerized solution is not a requirement for non senior position applicants, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile to your solution is optional, but recommended.
+* A containerized solution is not a requirement for non senior position applicants, but definitely preferred for us to easily deploy your solution and test. Therefore, adding a Dockerfile is not mandatory, but recommended.
 
 * As an optional extra, you can demonstrate to us how your solution would scale to handle 1000+ vehicles. This could be through a screen capture, or some form of clearly readable performance benchmarking, or in another way if you choose.
 
