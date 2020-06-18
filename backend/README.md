@@ -73,7 +73,7 @@ All valid position data, that are inside the "city boundaries", must be stored s
 
 ## Technical assumptions
 
-* The API is expected to be implemented using one of the following languages: Ruby (minimum version: 2.6.x), Javascript, Kotlin.
+* The API is expected to be implemented using one of the following languages: Ruby, Python, Kotlin or Javascript.
 * You are free to make use of any server framework or library you please (if any), but you should justify your choice.
 
 ## Containerized solution
