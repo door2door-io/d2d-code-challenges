@@ -87,7 +87,7 @@ When an operator adds or removes an operation period, the `on` field will be set
 
 ## Technical assumptions
 
-* Your solution is expected to be implemented using one of the following languages: Java or Python. We prefer Python, since it is what we use in door2door.
+* Your solution is expected to be implemented using Python, since it is the language we use for data processing at door2door.
 * You are free to make use of any framework or library you please, but you must justify your choice.
 
 
