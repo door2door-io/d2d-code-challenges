@@ -6,7 +6,7 @@
 2. shows the ride's current status (waiting, in the vehicle, dropped off) in a UI component
 3. shows the ride's pickup and dropoff addresses in a UI component
 
-door2door has provided a WebSockets endpoint that will provide all of this information. It will send different events simulating the various states of a ridepooling ride. Your solution should visualise the information that is sent from this endpoint.
+door2door has provided a WebSockets endpoint that will stream all of this information. It will send different events simulating the various states of a ridepooling ride. Your solution should visualise the information that is sent from this endpoint.
 
 - [Documentation of the WebSockets endpoint](https://d2d-frontend-code-challenge.herokuapp.com/docs)
   - Note that this service goes to sleep when not in use, so it may take a few seconds to connect the first time you access it
