@@ -21,7 +21,7 @@ The following points are optional features that you may choose to implement, but
 ## Technical assumptions
 
 - *If you are applying for an iOS Software Developer position*, then the solution must be implemented in **Swift**.
-- *If you are applying for an Android Software Developer position*, then the solution should preferably be implemented in **Kotlin**, but we would accept Java solutions too.
+- *If you are applying for an Android Software Developer position*, then the solution must be implemented in **Kotlin**.
 - You are free to make use of any framework or library you please (if any), but you should justify your choice.
 
 ## Delivery of your solution
