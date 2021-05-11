@@ -90,7 +90,7 @@ A containerized solution is a requirement for senior position applicants.
 
 ## Delivery of your solution
 
-Please deliver your solution to us as a publicly accessible git repository, or in a ZIP file. The repository should contain full instructions for us to run the solution on our own machines.
+Please deliver your solution to us by email in an attached ZIP file. The repository should contain full instructions for us to run the solution on our own machines.
 
 If you are able to publicly host the solution somewhere (e.g. Heroku, AWS), this would be a great bonus.
 
