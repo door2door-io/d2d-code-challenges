@@ -26,7 +26,7 @@ The following points are optional features that you may choose to implement, but
 
 ## Delivery of your solution
 
-Please deliver your solution to us as a publicly accessible git repository, or in a ZIP file. The repository should contain full instructions for us to build and run the project.
+Please deliver your solution to us by email in an attached ZIP file. The repository should contain full instructions for us to build and run the project.
 
 ## Reviewing
 

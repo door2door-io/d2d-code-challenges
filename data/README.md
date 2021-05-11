@@ -93,7 +93,7 @@ When an operator adds or removes an operation period, the `on` field will be set
 
 ## Delivery of your solution
 
-Please deliver your solution to us in a git repository or in a ZIP file. You must provide complete instructions for us to run the solution on our own machines. If you choose to use git, make sure the reviewers will be able to access your repository.
+Please deliver your solution to us by email in an attached ZIP file. You must provide complete instructions for us to run the solution on our own machines. If you choose to use git, make sure the reviewers will be able to access your repository.
 
 With one of the methods of deliver above, you may optionally host the solution on the Internet (e.g. Heroku, AWS). Make sure to provide access to door2door's reviewers.
 
